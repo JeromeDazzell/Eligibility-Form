@@ -7,4 +7,4 @@ The URL to access the form directly is: https://perscholas.tfaforms.net/f/eligib
 WordPress publish guide with the FormAssembly plugin: https://help.formassembly.com/help/wordpress
   
 For REST API, you can use a server-side script with the following URL: https://perscholas.tfaforms.net/rest/forms/view/4836317
-  User a Server-Side Script (REST API): https://help.formassembly.com/help/340360-use-a-server-side-script-api
+Use a Server-Side Script (REST API): https://help.formassembly.com/help/340360-use-a-server-side-script-api
