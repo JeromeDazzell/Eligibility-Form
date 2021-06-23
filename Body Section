@@ -19,7 +19,7 @@
             
                 #tfa_1,
                 *[id^="tfa_1["] {
-                    width: 360px !important;
+                    width: 312px !important;
                 }
                 #tfa_1-D,
                 *[id^="tfa_1["][class~="field-container-D"] {
@@ -34,7 +34,7 @@
             
                 #tfa_3,
                 *[id^="tfa_3["] {
-                    width: 360px !important;
+                    width: 312px !important;
                 }
                 #tfa_3-D,
                 *[id^="tfa_3["][class~="field-container-D"] {
@@ -43,11 +43,56 @@
             
                 #tfa_4,
                 *[id^="tfa_4["] {
-                    width: 720px !important;
+                    width: 312px !important;
                 }
                 #tfa_4-D,
                 *[id^="tfa_4["][class~="field-container-D"] {
                     width: auto !important;
+                }
+            
+                #tfa_4-L,
+                label[id^="tfa_4["] {
+                    width: 352px !important;
+                    min-width: 0px;
+                }
+            
+                #tfa_2509,
+                *[id^="tfa_2509["] {
+                    width: 312px !important;
+                }
+                #tfa_2509-D,
+                *[id^="tfa_2509["][class~="field-container-D"] {
+                    width: auto !important;
+                }
+            
+                #tfa_2513,
+                *[id^="tfa_2513["] {
+                    width: 312px !important;
+                }
+                #tfa_2513-D,
+                *[id^="tfa_2513["][class~="field-container-D"] {
+                    width: auto !important;
+                }
+            
+                #tfa_2513-L,
+                label[id^="tfa_2513["] {
+                    width: 312px !important;
+                    min-width: 0px;
+                }
+            
+                #tfa_2511,
+                *[id^="tfa_2511["] {
+                    width: 668px !important;
+                }
+                #tfa_2511-D,
+                *[id^="tfa_2511["][class~="field-container-D"] {
+                    width: auto !important;
+                }
+            
+                #tfa_2511-L,
+                label[id^="tfa_2511["] {
+                    width: 212px !important;
+                    min-width: 0px;
                 }
             
                 #tfa_192,
@@ -76,7 +121,7 @@
             
                 #tfa_1865,
                 *[id^="tfa_1865["] {
-                    width: 348px !important;
+                    width: 312px !important;
                 }
                 #tfa_1865-D,
                 *[id^="tfa_1865["][class~="field-container-D"] {
@@ -173,7 +218,21 @@
                     width: auto !important;
                 }
             </style><div class=""><div class="wForm" id="4836317-WRPR" dir="ltr">
-<div class="codesection" id="code-4836317"></div>
+<div class="codesection" id="code-4836317"><style>
+#tfa_2513 {
+color: red !important;
+font-weight: bold;
+background-color: white !important;
+border: none !important;
+}
+</style>
+<script type="text/javascript"> 
+wFORMS.behaviors.paging.MESSAGES = 
+{ CAPTION_NEXT : 'Next Section', CAPTION_PREVIOUS : 'Previous Section' } 
+</script>
+<div style="color:red">
+<noscript>For full functionality of this page it is necessary to <a href="http://www.enable-javascript.com/">enable Javascript.</a></noscript>
+</div></div>
 <h3 class="wFormTitle" data-testid="form-title" id="4836317-T">Per Scholas Training Eligibility Form</h3>
 <form method="post" action="https://perscholas.tfaforms.net/responses/processor" class="hintsBelow labelsAbove" id="4836317" role="form">
 <div class="wfPage" id="wfPgIndex-1"><div class="section pageSection" id="tfa_2412">
@@ -206,15 +265,15 @@
 <td><span class="oneChoice"><input type="radio" value="tfa_2432" class="" checked data-default-value="true" id="tfa_2432" name="tfa_2431" aria-required="true" title="Yes"></span></td>
 <td><span class="oneChoice"><input type="radio" value="tfa_2433" class="" id="tfa_2433" name="tfa_2431" aria-required="true" title="No"></span></td>
 </tr>
-<tr id="tfa_2437" class="oneField required  alternate-0 " role="radiogroup" aria-labelledby="tfa_2437-L" data-tfa-labelledby="-L tfa_2437-L">
-<th scope="row" class="headerCol"><label id="tfa_2437-L" for="tfa_2437" class="label reqMark">Are you authorized to work in the U.S.?</label></th>
-<td><span class="oneChoice"><input type="radio" value="tfa_2438" class="" checked data-default-value="true" id="tfa_2438" name="tfa_2437" aria-required="true" data-conditionals="#tfa_2411" title="Yes"></span></td>
-<td><span class="oneChoice"><input type="radio" value="tfa_2439" class="" id="tfa_2439" name="tfa_2437" aria-required="true" data-conditionals="#tfa_2446" title="No"></span></td>
-</tr>
-<tr id="tfa_2443" class="oneField required  alternate-1 " role="radiogroup" aria-labelledby="tfa_2443-L" data-tfa-labelledby="-L tfa_2443-L">
+<tr id="tfa_2443" class="oneField required  alternate-0 " role="radiogroup" aria-labelledby="tfa_2443-L" data-tfa-labelledby="-L tfa_2443-L">
 <th scope="row" class="headerCol"><label id="tfa_2443-L" for="tfa_2443" class="label reqMark">Will you be ready to launch your career immediately following training?</label></th>
 <td><span class="oneChoice"><input type="radio" value="tfa_2444" class="" checked data-default-value="true" id="tfa_2444" name="tfa_2443" aria-required="true" title="Yes"></span></td>
 <td><span class="oneChoice"><input type="radio" value="tfa_2445" class="" id="tfa_2445" name="tfa_2443" aria-required="true" title="No"></span></td>
+</tr>
+<tr id="tfa_2437" class="oneField required  alternate-1 " role="radiogroup" aria-labelledby="tfa_2437-L" data-tfa-labelledby="-L tfa_2437-L">
+<th scope="row" class="headerCol"><label id="tfa_2437-L" for="tfa_2437" class="label reqMark">Are you authorized to work in the U.S.?</label></th>
+<td><span class="oneChoice"><input type="radio" value="tfa_2438" class="" id="tfa_2438" name="tfa_2437" aria-required="true" data-conditionals="#tfa_2411" title="Yes"></span></td>
+<td><span class="oneChoice"><input type="radio" value="tfa_2439" class="" id="tfa_2439" name="tfa_2437" aria-required="true" data-conditionals="#tfa_2446" title="No"></span></td>
 </tr>
 <tr id="tfa_2482" class="oneField required  alternate-0 " role="radiogroup" aria-labelledby="tfa_2482-L" data-tfa-labelledby="-L tfa_2482-L">
 <th scope="row" class="headerCol"><label id="tfa_2482-L" for="tfa_2482" class="label reqMark">Have you experienced any challenges launching a career in technology?</label></th>
@@ -233,8 +292,8 @@
 </div>
 </div></div>
 <div class="wfPage" id="wfPgIndex-2"><div class="section pageSection" id="tfa_2446" data-condition="`#tfa_2415` OR `#tfa_2421` OR `#tfa_2439`">
-<h4 id="tfa_2446-T">Learner Eligibility Minimums Not Met</h4>
-<div class="htmlSection" id="tfa_2447"><div class="htmlContent" id="tfa_2447-HTML">Based on your responses for the previous page, you do not meet the minimum learner eligibility requirements to enroll in a Per Scholas course.&nbsp;</div></div>
+<h4 id="tfa_2446-T">Thank you for your interest.&nbsp;</h4>
+<div class="htmlSection" id="tfa_2447"><div class="htmlContent" id="tfa_2447-HTML">Based on your responses for the previous page, you do not meet the minimum learner eligibility requirements to enroll in a Per Scholas course. If your situation changes, please resubmit a form. Best of luck in the meantime!</div></div>
 </div></div>
 <div class="wfPage" id="wfPgIndex-3"><div class="section pageSection" id="tfa_2411" data-condition="`#tfa_2414` AND `#tfa_2420` AND `#tfa_2438`">
 <div id="tfa_2178" class="section group">
@@ -246,7 +305,14 @@
 </div>
 <div id="tfa_2179" class="section inline group">
 <div class="oneField field-container-D    " id="tfa_4-D">
-<label id="tfa_4-L" class="label preField reqMark" for="tfa_4">Email</label><br><div class="inputWrapper"><input type="text" id="tfa_4" name="tfa_4" value="" aria-required="true" title="Email" class="validate-email required"></div>
+<label id="tfa_4-L" class="label preField reqMark" for="tfa_4">Email</label><br><div class="inputWrapper"><input type="text" id="tfa_4" name="tfa_4" value="" aria-required="true" title="Email" class="validate-email calc-Email required"></div>
+</div>
+<div class="oneField field-container-D    " id="tfa_2509-D">
+<label id="tfa_2509-L" class="label preField reqMark" for="tfa_2509">Confirm Email</label><br><div class="inputWrapper"><input type="text" id="tfa_2509" name="tfa_2509" value="" aria-required="true" title="Confirm Email" class="validate-email calc-ConfirmEmail required"></div>
+</div>
+<div class="oneField field-container-D  labelsRemoved  " id="tfa_2513-D"><div class="inputWrapper"><input type="text" id="tfa_2513" name="tfa_2513" value="" readonly aria-required="true" title="Calculated Email Match Field" class='validate-custom /^$/ formula=Email==ConfirmEmail?"":msg; readonly required'></div></div>
+<div class="oneField field-container-D     wf-acl-hidden" id="tfa_2511-D">
+<label id="tfa_2511-L" class="label preField reqMark" for="tfa_2511">Confirm Email Message</label><br><div class="inputWrapper"><input type="text" id="tfa_2511" name="tfa_2511" value="Email and Confirm Email must match!" default="Email and Confirm Email must match!" aria-required="true" title="Confirm Email Message" class="calc-msg required"></div>
 </div>
 <div class="oneField field-container-D    " id="tfa_192-D">
 <label id="tfa_192-L" class="label preField reqMark" for="tfa_192">Phone</label><br><div class="inputWrapper"><input type="text" id="tfa_192" name="tfa_192" value="" placeholder="###-###-####" aria-required="true" autoformat="###-###-####" title="Phone" class="validate-custom /^([\(]{1}[0-9]{3}[\)]{1}[\.| |\-]{0,1}|^[0-9]{3}[\.|\-| ]?)?[0-9]{3}(\.|\-| )?[0-9]{4}$/ required"></div>
@@ -266,11 +332,12 @@
 <div class="oneField field-container-D    " id="tfa_2177-D">
 <label id="tfa_2177-L" class="label preField reqMark" for="tfa_2177">Postal Code</label><br><div class="inputWrapper"><input type="text" id="tfa_2177" name="tfa_2177" value="" aria-required="true" title="Postal Code" class="validate-integer required"></div>
 </div>
-<div class="htmlSection" id="tfa_2197"><div class="htmlContent" id="tfa_2197-HTML">&nbsp;</div></div>
 </div>
 <div id="tfa_2180" class="section group">
-<label class="label preField" id="tfa_2180-L"><b>A Little More About You</b></label><br><div class="oneField field-container-D    " id="tfa_2181-D">
-<label id="tfa_2181-L" class="label preField reqMark" for="tfa_2181">Please confirm your date of birth</label><br><div class="inputWrapper"><input type="text" id="tfa_2181" name="tfa_2181" value="" placeholder="mm/dd/yyyy" aria-required="true" max="+|0_Day{}" title="Please confirm your date of birth" class="validate-date required"></div>
+<label class="label preField" id="tfa_2180-L"><b>A Little More About You</b></label><br><div class="oneField field-container-D   hintsBelow " id="tfa_2181-D">
+<label id="tfa_2181-L" class="label preField reqMark" for="tfa_2181">Please confirm your date of birth</label><br><div class="inputWrapper">
+<input type="text" id="tfa_2181" name="tfa_2181" value="" placeholder="mm/dd/yyyy" aria-required="true" aria-describedby="tfa_2181-HH" max="-|17_Year{}" title="Please confirm your date of birth" class="validate-date required"><span class="field-hint-inactive" id="tfa_2181-H"><span id="tfa_2181-HH" class="hint">You must be at least 18 years of age to submit this form. </span></span>
+</div>
 </div>
 <div class="oneField field-container-D    " id="tfa_2182-D">
 <label id="tfa_2182-L" class="label preField reqMark" for="tfa_2182">To which gender identity do you most identify?</label><br><div class="inputWrapper"><select id="tfa_2182" name="tfa_2182" title="To which gender identity do you most identify?" aria-required="true" class="required"><option value="">Please select...</option>
@@ -530,9 +597,23 @@
 </div>
 </div>
 </div></div>
-<div class="actions" id="4836317-A"><input type="submit" data-label="Agree &amp; Submit" class="primaryAction" id="submit_button" value="Agree &amp; Submit"></div>
+<div class="actions" id="4836317-A">
+<div id="google-captcha" style="display: none">
+<br><div class="captcha">
+<div class="oneField">
+<div class="g-recaptcha" id="g-recaptcha-render-div"></div>
+<div class="g-captcha-error"></div>
+<br>
+</div>
+<div class="captchaHelp">reCAPTCHA helps prevent automated form spam.<br>
+</div>
+<div id="disabled-explanation" class="captchaHelp" style="display: none">The submit button will be disabled until you complete the CAPTCHA.</div>
+</div>
+</div>
+<input type="submit" data-label="Agree &amp; Submit" class="primaryAction" id="submit_button" value="Agree &amp; Submit">
+</div>
 <div style="clear:both"></div>
-<input type="hidden" value="4836317" name="tfa_dbFormId" id="tfa_dbFormId"><input type="hidden" value="" name="tfa_dbResponseId" id="tfa_dbResponseId"><input type="hidden" value="f40eccbee6175e8bc83a15ffe9c6ede2" name="tfa_dbControl" id="tfa_dbControl"><input type="hidden" value="" name="tfa_dbWorkflowSessionUuid" id="tfa_dbWorkflowSessionUuid"><input type="hidden" value="78" name="tfa_dbVersionId" id="tfa_dbVersionId"><input type="hidden" value="" name="tfa_switchedoff" id="tfa_switchedoff">
+<input type="hidden" value="4836317" name="tfa_dbFormId" id="tfa_dbFormId"><input type="hidden" value="" name="tfa_dbResponseId" id="tfa_dbResponseId"><input type="hidden" value="f40eccbee6175e8bc83a15ffe9c6ede2" name="tfa_dbControl" id="tfa_dbControl"><input type="hidden" value="" name="tfa_dbWorkflowSessionUuid" id="tfa_dbWorkflowSessionUuid"><input type="hidden" value="100" name="tfa_dbVersionId" id="tfa_dbVersionId"><input type="hidden" value="" name="tfa_switchedoff" id="tfa_switchedoff">
 </form>
 </div></div><div class="wFormFooter"><p class="supportInfo"><a target="new" class="contactInfoLink" href="https://perscholas.org/wp-content/uploads/2020/10/NON-DISCRIMINATIONPOLICY-10212020.pdf">Non-Discrimination Policy</a><br><a target="new" class="gdprLink" href="https://perscholas.org/wp-content/uploads/2020/08/PIIComments_11.9.pdf">PII Policy</a></p></div>
   <p class="supportInfo" >
